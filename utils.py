@@ -1,7 +1,6 @@
 # Utility function for getting data & prompting & query
 import os
 import random
-import openai
 import time
 import torch
 import json
@@ -77,6 +76,8 @@ def get_dataset(data_name, shot, seed):
 
 
 def query_gpt(text_list, api_key, max_tokens=30, temperature=0, max_try_num=10, model="gpt-3.5-turbo-0613"):
+    import openai
+
     openai.api_key = api_key
     result_list = []
     for prompt in tqdm(text_list):
