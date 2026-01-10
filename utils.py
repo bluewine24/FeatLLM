@@ -18,8 +18,18 @@ TASK_DICT = {
     'adult': "Does this person earn more than 50000 dollars per year? Yes or no?",
     'bank': "Does this client subscribe to a term deposit? Yes or no?",
     'car': "How would you rate the decision to buy this car? Unacceptable, acceptable, good or very good?",
+    'arrhythmia': "Does this patient have arrhythmia? Yes or no?",
+    'balance-scale': "Is the balance scale tipped to the left, right, or balanced?",
+    'breast-w': "Is the tumor benign or malignant?",
+    'cmc': "Which contraceptive method was used? 1 = no use, 2 = long-term methods, 3 = short-term methods.",
     'communities': "How high will the rate of violent crimes per 100K population be in this area. Low, medium, or high?",
-    'myocardial': "Does the myocardial infarction complications data of this patient show chronic heart failure? Yes or no?"
+    'covtype': "What is the forest cover type for this area? Choose one of the 7 cover types.",
+    'eucalyptus': "What is the utility rating for this tree? None, low, average, good, or best?",
+    'junglechess': "Which side wins in this jungle chess position: white, black, or draw?",
+    'myocardial': "Does the myocardial infarction complications data of this patient show chronic heart failure? Yes or no?",
+    'pc1': "Is this software module defective? Yes or no?",
+    'tic-tac-toe': "Is this tic-tac-toe position positive or negative?",
+    'vehicle': "Which type of vehicle is this? Choose the vehicle class from the dataset labels."
 }
 
 
